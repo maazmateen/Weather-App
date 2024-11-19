@@ -37,7 +37,7 @@ fetch(`https://api.weatherapi.com/v1/current.json?key=46e417ccc1494938bdb1601362
         <h2 class="grey">Winds Speed : ${res.current.wind_kph}°C</h2>
     </div>
     <div class="section2">
-        <p class="grey">${res.current.condition.text}</p>
+        <h4 class="grey">${res.current.condition.text}</h4>
     </div>
     <div class="section2">
     <h3 class="grey">Local Time : ${res.location.localtime}</h3>
